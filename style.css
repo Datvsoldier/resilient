@@ -1,0 +1,117 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1a1a1a;
+    color: #ffbf00;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #111;
+    border-right: 1px solid #ffbf00;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h3 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ffbf00;
+    padding-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    color: #ffbf00;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ffbf00;
+    color: #111;
+}
+
+.content {
+    margin-left: 260px;
+    padding: 40px;
+    width: calc(100% - 260px);
+}
+
+header {
+    border-bottom: 1px solid #ffbf00;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 40px;
+    padding-top: 20px; /* For anchor links */
+}
+
+section h2 {
+    font-size: 2em;
+    color: #ffffff;
+    border-bottom: 1px dashed #ffbf00;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.copy-btn {
+    background-color: #ffbf00;
+    color: #111;
+    border: none;
+    padding: 8px 12px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.copy-btn:hover {
+    background-color: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ffbf00;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffbf00;
+    color: #111;
+}

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Supervivencia Alienígena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registrado con éxito: ', registration.scope);
+                    })
+                    .catch(err => {
+                        console.log('Fallo el registro de ServiceWorker: ', err);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <nav class="sidebar">
+        <h3>Manual Táctico</h3>
+        <ul>
+            <li><a href="#cap0">Cap. 0: La Hora Cero</a></li>
+            <li><a href="#cap1">Cap. 1: Conoce a tu Enemigo</a></li>
+            <li><a href="#cap2">Cap. 2: Taller del Superviviente</a></li>
+            <li><a href="#cap3">Cap. 3: Refugios Avanzados</a></li>
+            <li><a href="#cap4">Cap. 4: Agua y Alimentación</a></li>
+            <li><a href="#cap5">Cap. 5: Energía e Iluminación</a></li>
+            <li><a href="#cap6">Cap. 6: Defensa y Evasión</a></li>
+            <li><a href="#cap7">Cap. 7: Gestión de Recursos</a></li>
+            <li><a href="#cap8">Cap. 8: Comunicación e IA</a></li>
+            <li><a href="#cap9">Cap. 9: Medicina de Combate</a></li>
+            <li><a href="#cap10">Cap. 10: Anexo</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <header>
+            <h1>Manual de Supervivencia Alienígena</h1>
+            <p>Una guía táctica para la resistencia humana.</p>
+        </header>
+
+        <section id="cap0">
+            <h2>Capítulo 0: La Hora Cero - La Mochila de 72 Horas y Acciones Inmediatas <button class="copy-btn" data-target="cap0">Copiar</button></h2>
+            <div class="copy-content">
+                <p>El momento ha llegado. Las sirenas, las transmisiones cortadas, el extraño color del cielo... No hay tiempo para dudar. Tus acciones en la primera hora determinarán tu supervivencia en las próximas 72. Este capítulo es tu protocolo de emergencia.</p>
+        
+                <h3>🎒 La Mochila de 72 Horas (Bug-Out Bag)</h3>
+                <p>Esta no es una maleta de vacaciones. Es tu vida en una mochila. Debe estar preparada de antemano y ser lo suficientemente ligera para no entorpecerte. Cada gramo cuenta.</p>
+                <h4>Nivel 1: Supervivencia Inmediata (Lo que te mantiene vivo)</h4>
+                <ul>
+                    <li><strong>Agua:</strong> Mínimo 3 litros por persona. Una botella de metal resistente que puedas usar para hervir es ideal.</li>
+                    <li><strong>Purificación:</strong> Pastillas potabilizadoras y un filtro de agua personal (tipo Lifestraw). Redundancia es seguridad.</li>
+                    <li><strong>Comida (Alto Valor Calórico):</strong> Raciones de emergencia, barritas energéticas, frutos secos. No lleves latas pesadas.</li>
+                    <li><strong>Refugio de Emergencia:</strong> Una lona (tarp) de 2x3 metros, una manta de emergencia (mylar) y 15 metros de cuerda paracord.</li>
+                    <li><strong>Botiquín de Trauma (IFAK):</strong> Enfocado en hemorragias. Incluye torniquete, vendaje israelí, gasa hemostática y guantes.</li>
+                </ul>
+                <h4>Nivel 2: Herramientas y Defensa (Lo que te hace útil)</h4>
+                <ul>
+                    <li><strong>Cuchillo Resistente:</strong> De hoja fija (full-tang). Es tu herramienta más importante.</li>
+                    <li><strong>Multiherramienta:</strong> Con alicates, destornilladores y sierra.</li>
+                    <li><strong>Fuente de Fuego:</strong> Un mechero, un pedernal (ferrocerio) y yesca impermeable (algodón con vaselina).</li>
+                    <li><strong>Linterna Frontal:</strong> Con baterías de repuesto. Te deja las manos libres.</li>
+                    <li><strong>Arma de Defensa:</strong> La que manejes con más soltura y sea legal en tu zona.</li>
+                </ul>
+                <h4>Nivel 3: Información y Navegación (Lo que te da ventaja)</h4>
+                <ul>
+                    <li><strong>Mapas:</strong> Físicos, de tu localidad y región. Plastificados si es posible.</li>
+                    <li><strong>Brújula:</strong> Y saber usarla.</li>
+                    <li><strong>Radio de Manivela/Solar:</strong> Para recibir transmisiones de emergencia (AM/FM/Onda Corta).</li>
+                    <li><strong>Documentación:</strong> Copias físicas y en un USB encriptado de tus documentos de identidad, pasaporte, etc.</li>
+                    <li><strong>Este Manual:</strong> Impreso o en un dispositivo offline con batería de repuesto.</li>
+                </ul>
+        
+                <h3>Saqueo de Pánico (Los Primeros 15 Minutos)</h3>
+                <p>Antes de evacuar, tienes 15 minutos para saquear tu propia casa. Muévete con un propósito.</p>
+                <ol>
+                    <li><strong>Botiquín:</strong> Coge TODOS los antibióticos, analgésicos y material de cura que tengas. Mételos en una bolsa.</li>
+                    <li><strong>Despensa:</strong> Coge toda la comida enlatada, arroz, pasta y legumbres. No te preocupes por el peso ahora, crea un depósito cerca de tu casa si es necesario.</li>
+                    <li><strong>Agua:</strong> Llena la bañera, los lavabos y cualquier recipiente disponible con agua. Es tu reserva estratégica inicial.</li>
+                    <li><strong>Ropa:</strong> Coge un par de calcetines extra y la chaqueta más resistente que tengas.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="cap1">
+            <h2>Capítulo 1: Conoce a tu Enemigo: Análisis de Amenazas y Primer Contacto <button class="copy-btn" data-target="cap1">Copiar</button></h2>
+            <div class="copy-content">
+                <p>La supervivencia no comienza con una herramienta o un refugio, sino con el conocimiento. Entender a tu enemigo, sus motivaciones y su tecnología es el primer y más crucial paso para desarrollar una estrategia de resistencia efectiva. Asumir que todos los visitantes son iguales es un error fatal.</p>
+
+                <h3>👽 Tipología de Amenazas Alienígenas</h3>
+                <p>La inteligencia de la resistencia ha identificado tres perfiles principales de invasores. Reconocer con cuál te enfrentas te permitirá anticipar sus acciones.</p>
+                <ul>
+                    <li><strong>Los Recolectores (The Harvesters):</strong>
+                        <ul>
+                            <li><strong>Motivación:</strong> No buscan la conquista, sino la extracción de recursos específicos: agua, minerales, material genético, o incluso la propia energía de la biosfera.</li>
+                            <li><strong>Tácticas:</strong> Suelen ser eficientes y sistemáticos. Utilizan drones automatizados y maquinaria pesada. Evitan el conflicto directo si es posible, pero eliminarán cualquier obstáculo a sus operaciones de recolección con una fuerza abrumadora.</li>
+                            <li><strong>Debilidad:</strong> Su enfoque está en el recurso, no en la población. Sus operaciones tienen centros logísticos (puntos de extracción, naves de carga) que son objetivos de alto valor para el sabotaje.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Los Conquistadores (The Conquerors):</strong>
+                        <ul>
+                            <li><strong>Motivación:</strong> La expansión territorial. Ven la Tierra como un nuevo hogar o una colonia estratégica. Su objetivo es la subyugación o erradicación total de la humanidad.</li>
+                            <li><strong>Tácticas:</strong> Guerra total. Despliegan infantería, vehículos de asalto y bombardeos orbitales. Establecen zonas fortificadas y buscan activamente destruir los centros de población y resistencia.</li>
+                            <li><strong>Debilidad:</strong> Su necesidad de controlar el territorio los obliga a dispersar sus fuerzas. Las tácticas de guerrilla, como los ataques relámpago a sus patrullas y líneas de suministro, son muy efectivas.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Los Infiltrados (The Infiltrators):</strong>
+                        <ul>
+                            <li><strong>Motivación:</strong> El control sigiloso. Buscan dominar la civilización desde dentro, reemplazando a líderes clave o manipulando a la sociedad a través de la tecnología o el control mental.</li>
+                            <li><strong>Tácticas:</strong> Guerra psicológica, secuestros selectivos, desinformación y uso de agentes biológicos o nanotecnológicos para controlar o debilitar a la población. Su presencia puede no ser obvia al principio.</li>
+                            <li><strong>Debilidad:</strong> Dependen del secretismo. Exponer su presencia, identificar a sus agentes y cortar sus redes de comunicación son las claves para derrotarlos. La paranoia puede ser tanto un arma contra ellos como una herramienta que usan a su favor.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>⚙️ Análisis de Tecnología Enemiga</h3>
+                <p>Observa y aprende. Conocer las capacidades de su tecnología te dará pistas sobre cómo contrarrestarla.</p>
+                <ul>
+                    <li><strong>Armas de Energía Dirigida (Láseres, Plasma):</strong> Dejan marcas de quemaduras características y a menudo ionizan el aire (olor a ozono). La cobertura sólida (roca, hormigón) es más efectiva que el blindaje metálico, que puede ser fundido.</li>
+                    <li><strong>Escudos de Energía Personales/Vehiculares:</strong> A menudo parpadean o se distorsionan al recibir un impacto. Busca sobrecargarlos con ataques múltiples y concentrados. Pueden tener "puntos ciegos" o ser vulnerables a ataques de baja tecnología (cócteles molotov, armas de pulso electromagnético improvisadas).</li>
+                    <li><strong>Drones de Vigilancia y Asalto:</strong> Suelen operar en enjambres y seguir patrones de búsqueda predecibles. Son vulnerables a las redes (para enredar sus rotores) y a los ataques de pulso electromagnético (EMP) que pueden freír sus circuitos.</li>
+                </ul>
+
+                <h3>🛡️ Fases de una Invasión Alienígena y Protocolos de Actuación</h3>
+                <p>Una invasión bien estructurada podría seguir estas fases. Entenderlas te permite anticiparte y reaccionar adecuadamente.</p>
+                <ol>
+                    <li><strong>Fase 1: Reconocimiento</strong>
+                        <ul>
+                            <li><strong>Señales:</strong> Observación remota de nuestras capacidades, interferencia en satélites y redes, abducciones selectivas, aumento de avistamientos anómalos.</li>
+                            <li><strong>Protocolo de Actuación:</strong>
+                                <ul>
+                                    <li><strong>Perfil Bajo:</strong> Evita publicar en redes sociales, no hables de tus preparativos.</li>
+                                    <li><strong>Preparación Silenciosa:</strong> Completa tu mochila de 72 horas. Refuerza tu casa o prepara tu lugar de refugio.</li>
+                                    <li><strong>Inteligencia Pasiva:</strong> Monitoriza las noticias, las redes de radioaficionados y los foros en busca de patrones.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Fase 2: Desestabilización</strong>
+                        <ul>
+                            <li><strong>Señales:</strong> Ataques a sistemas eléctricos (apagones masivos), redes digitales (caída de internet) y comunicaciones. Propagación de virus o nieblas biológicas. Manipulación psíquica o emocional (pánico masivo, desconfianza).</li>
+                            <li><strong>Protocolo de Actuación:</strong>
+                                <ul>
+                                    <li><strong>Desconexión:</strong> Asume que la red eléctrica y de agua no volverán. Activa tus sistemas de energía y purificación de agua.</li>
+                                    <li><strong>Aislamiento:</strong> Evita las grandes ciudades y las multitudes. Son objetivos primarios y focos de pánico.</li>
+                                    <li><strong>Comunicación Segura:</strong> Contacta con tu grupo de confianza usando los canales seguros preestablecidos.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Fase 3: Ocupación</strong>
+                        <ul>
+                            <li><strong>Señales:</strong> Aterrizaje masivo de naves en puntos estratégicos (capitales, bases militares). Control visible de gobiernos y estructuras militares. Inicio de la terraformación o modificación ambiental.</li>
+                            <li><strong>Protocolo de Actuación:</strong>
+                                <ul>
+                                    <li><strong>Evasión y Escape (E&E):</strong> Es el momento de ejecutar tu plan de huida hacia tu refugio principal.</li>
+                                    <li><strong>Movimiento Nocturno:</strong> Evita viajar de día. Usa la cobertura de la oscuridad.</li>
+                                    <li><strong>Guerra de Guerrillas (Si estás preparado):</strong> Inicia operaciones de sabotaje a pequeña escala. Tu objetivo no es ganar, es desgastar y sobrevivir.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Fase 4: Resistencia Humana</strong>
+                        <ul>
+                            <li><strong>Señales:</strong> El conflicto se vuelve una guerra de desgaste a largo plazo. Se establecen zonas controladas por humanos y por alienígenas.</li>
+                            <li><strong>Protocolo de Actuación:</strong>
+                                <ul>
+                                    <li><strong>Consolidación:</strong> Forma redes con otros grupos de supervivientes.</li>
+                                    <li><strong>Autosuficiencia:</strong> La agricultura, la cría de animales y la manufactura de herramientas se vuelven la base de la nueva sociedad.</li>
+                                    <li><strong>Guerra de Inteligencia:</strong> El objetivo principal es aprender las debilidades del enemigo para un futuro contraataque coordinado.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="cap2">
+            <h2>Capítulo 2: Taller del Superviviente: Creación de Armas y Herramientas <button class="copy-btn" data-target="cap2">Copiar</button></h2>
+            <div class="copy-content">
+                <p>En un mundo sin fábricas, tus manos son la nueva industria. La capacidad de transformar chatarra en herramientas y armas no es solo una habilidad, es una declaración de independencia. Esta sección te guiará paso a paso en la forja de tu propio arsenal.</p>
+                
+                <h3>Principios de la Fabricación Improvisada</h3>
+                <ul>
+                    <li><strong>La Ley de los 3 Usos:</strong> Antes de desechar cualquier objeto, piensa si puede servir para al menos tres propósitos (ej: una barra de metal puede ser palanca, mango de martillo o parte de una trampa).</li>
+                    <li><strong>La Seguridad Primero:</strong> Trabaja siempre con guantes improvisados (tela gruesa, cuero de asientos de coche). Una herida infectada es una sentencia de muerte.</li>
+                    <li><strong>El Fuego es tu Aliado:</strong> Una pequeña forja (un agujero en la tierra con carbón y un soplador manual) te permitirá ablandar y moldear metales, así como endurecer la madera.</li>
+                </ul>
+
+                <h3>🛠️ Paso a Paso: Hacha de Escombros</h3>
+                <p>Un hacha es una herramienta fundamental para cortar madera, abrir puertas o como arma defensiva. Esta versión utiliza materiales que encontrarás en cualquier entorno urbano.</p>
+                <ol>
+                    <li><strong>Selección de la Cabeza:</strong>
+                        <ul>
+                            <li>Busca una pieza de metal pesada y con una forma que se preste a ser afilada. Opciones ideales: una llave inglesa grande, la hoja de un cortacésped, un trozo de ballesta de un camión o una placa de metal gruesa (mínimo 1 cm).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Preparación del Mango:</strong>
+                        <ul>
+                            <li>Encuentra una tubería de metal de unos 50-70 cm o una pata de madera maciza de una mesa o silla. El mango debe ser cómodo y permitir un buen agarre.</li>
+                            <li>Si usas un mango de madera, haz una hendidura en la parte superior del mismo tamaño que la base de tu cabeza de hacha.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ensamblaje Seguro:</strong>
+                        <ul>
+                            <li><strong>Método 1 (Incrsutación):</strong> Inserta la base de la cabeza de metal en la hendidura del mango de madera. Perfora agujeros a través de la madera y el metal y únelos con tornillos o clavos remachados. Envuelve la unión firmemente con alambre de espino o cable de acero.</li>
+                            <li><strong>Método 2 (Soldadura improvisada):</strong> Si tienes acceso a una batería de coche y cables, puedes crear un arco de soldadura para unir una cabeza de metal a un mango de metal. Es peligroso, pero extremadamente eficaz.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Afilado del Filo:</strong>
+                        <ul>
+                            <li>Usa una superficie de concreto o una piedra plana y lisa como piedra de afilar. Frota el borde del metal en un ángulo de 25-30 grados, siempre en la misma dirección, hasta crear un filo. Sé paciente, puede llevar tiempo.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>🪓 Paso a Paso: Lanza de Caza y Defensa</h3>
+                <p>La lanza es el arma más antigua de la humanidad por una razón: es fácil de hacer, versátil y te permite mantener una distancia segura del enemigo.</p>
+                <ol>
+                    <li><strong>Selección del Asta:</strong>
+                        <ul>
+                            <li>Busca una vara de madera lo más recta posible, de unos 2 metros de largo. La madera joven y verde es flexible; la madera seca es más rígida. Un árbol joven de fresno, bambú o incluso un tubo de PVC resistente son ideales.</li>
+                            <li>Pela la corteza para un agarre más suave y para evitar astillas.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Fabricación de la Punta:</strong>
+                        <ul>
+                            <li><strong>Punta de Fuego:</strong> (La más simple) Afila la punta de la lanza con un cuchillo y luego endurecela directamente sobre las brasas de un fuego (no en la llama directa) durante unos 20 minutos, girándola constantemente. La madera se volverá oscura y muy dura.</li>
+                            <li><strong>Punta Metálica:</strong> Afila un cuchillo de cocina grande, una varilla de construcción o un destornillador largo. Inserta la base en una hendidura en la punta de la lanza.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Fijación y Equilibrio:</strong>
+                        <ul>
+                            <li>Asegura la punta metálica a la lanza usando "tendón" improvisado: tiras finas de neumático, cuerda de nylon deshilachada, o incluso tendones de animales si has cazado. Envuelve la unión de forma muy apretada y sella con resina de pino caliente si es posible.</li>
+                            <li>Añade un contrapeso en la base (una piedra atada, un trozo de metal) para mejorar el equilibrio y la precisión al lanzar.</li>
+                        </ul>
+                    </li>
+                </ol>
+                
+                <h3>🔥 Armas Inflamables: Control y Precaución</h3>
+                <p>Estas armas son extremadamente efectivas para el control de áreas y la negación de paso, pero son peligrosas para el usuario. Úsalas como último recurso y siempre con una ruta de escape clara.</p>
+                <ul>
+                    <li><strong>Lanzallamas Improvisado:</strong>
+                        <ul>
+                            <li><strong>Materiales:</strong> Un bote de aerosol con contenido inflamable (laca, desodorante, pintura) y un mechero o vela.</li>
+                            <li><strong>Uso Táctico:</strong> Pega el mechero al extremo del bote con cinta adhesiva de forma que la llama quede justo delante de la boquilla. Úsalo en ráfagas cortas para crear una barrera de fuego o para despejar espacios cerrados. Nunca lo uses contra el viento.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Cóctel Molotov (Botella de Fuego):</strong>
+                        <ul>
+                            <li><strong>Materiales:</strong> Una botella de vidrio, líquido inflamable (gasolina, alcohol, aceite de motor) y una mecha (un trapo de algodón).</li>
+                            <li><strong>Construcción Segura:</strong> Rellena la botella hasta 3/4 de su capacidad. Introduce un extremo del trapo en la botella, dejando el otro extremo fuera. El trapo debe empaparse bien.</li>
+                            <li><strong>Uso:</strong> Enciende el extremo del trapo JUSTO ANTES de lanzar. Lanza contra una superficie dura para que la botella se rompa y el líquido se inflame. Ideal contra vehículos o grupos de enemigos.</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h3>🔧 Mantenimiento del Arsenal</h3>
+                <p>Tus herramientas son tu vida. Cuídalas.</p>
+                <ul>
+                    <li><strong>Control de Óxido:</strong> Mantén las partes metálicas secas y, si es posible, ligeramente engrasadas (aceite de motor, grasa animal).</li>
+                    <li><strong>Revisión de Mangos:</strong> Revisa regularmente los mangos de madera en busca de grietas. Un mango roto en combate es fatal.</li>
+                    <li><strong>Afilado Constante:</strong> Un filo desafilado requiere más fuerza y es más peligroso. Dedica tiempo cada día a mantener tus herramientas afiladas.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cap3">
+            <h2>Capítulo 3: Refugios Avanzados y Fortificación <button class="copy-btn" data-target="cap3">Copiar</button></h2>
+            <div class="copy-content">
+                <p>Cuando las estructuras convencionales son un objetivo, tu refugio es tu santuario. No es solo un techo; es una fortaleza, un escondite y un hogar. Esta sección detalla cómo seleccionar, construir y fortificar refugios para maximizar tus probabilidades de supervivencia.</p>
+
+                <h3>🌍 Análisis del Entorno y Selección del Emplazamiento</h3>
+                <p>La elección del lugar es la decisión más crítica. Un buen emplazamiento trabaja a tu favor; uno malo te convierte en un blanco fácil. Analiza estos factores:</p>
+                <ul>
+                    <li><strong>Visibilidad y Ocultación:</strong> Busca depresiones naturales, cuevas, bosques densos o ruinas estructurales complejas. El objetivo es tener una buena línea de visión sin ser visto. Evita las cimas de las colinas y los campos abiertos.</li>
+                    <li><strong>Acceso a Recursos:</strong> Idealmente, a menos de 500 metros de una fuente de agua potable (río, lago, manantial) y con acceso a madera o materiales de construcción. No te asientes demasiado cerca del agua para evitar inundaciones y la fauna que atrae.</li>
+                    <li><strong>Drenaje del Terreno:</strong> Nunca construyas en el fondo de un barranco o en un lecho de río seco. Una lluvia fuerte podría inundarte. Busca terrenos ligeramente elevados que desvíen el agua de forma natural.</li>
+                    <li><strong>Rutas de Escape Múltiples:</strong> Elige un lugar que ofrezca al menos tres rutas de escape en diferentes direcciones, preferiblemente ocultas por el terreno o la vegetación.</li>
+                </ul>
+
+                <h3>🧱 Materiales de Construcción y Aislamiento</h3>
+                <p>La creatividad es tu mejor herramienta. Casi todo puede ser reutilizado. Aquí tienes una lista ampliada de materiales:</p>
+                <h4>Para Muros y Estructuras:</h4>
+                <ul>
+                    <li><strong>Neumáticos Rellenos de Tierra/Arena:</strong> (Idea original) Excelente para muros de contención. Son modulares, resistentes a impactos y muy abundantes.</li>
+                    <li><strong>Palets de Madera:</strong> (Idea original) Pueden formar la estructura base de paredes. Rellena los huecos con tierra, escombros o aislante.</li>
+                    <li><strong>Adobe Improvisado (Barro y Paja):</strong> (Idea original) Una técnica milenaria. Ofrece un gran aislamiento térmico y se camufla perfectamente.</li>
+                    <li><strong>Sacos de Tierra (Superadobe):</strong> Llena sacos de tela o plástico con tierra y apílalos como si fueran ladrillos. Son increíblemente resistentes.</li>
+                    <li><strong>Muros de Gaviones:</strong> Crea jaulas con vallas metálicas o somieres y rellénalas con rocas y escombros. Forman barreras muy sólidas.</li>
+                    <li><strong>Bloques de Cemento y Ladrillos:</strong> Recuperados de construcciones, son la opción más duradera si puedes transportarlos.</li>
+                </ul>
+                <h4>Para Aislamiento Térmico y Acústico:</h4>
+                <ul>
+                    <li><strong>Cartón Ondulado y Papel de Periódico:</strong> (Idea original) En capas, atrapan aire y aíslan bien, pero deben mantenerse secos.</li>
+                    <li><strong>Lana de Roca o Fibra de Vidrio:</strong> (Idea original) Recuperada de edificios. Es el mejor aislante, pero manipúlala con cuidado (usa guantes y mascarilla).</li>
+                    <li><strong>Plástico de Burbujas:</strong> (Idea original) Excelente para ventanas improvisadas y para añadir una capa de aire a las paredes.</li>
+                    <li><strong>Ropa Vieja y Telas:</strong> Compactada en los huecos de las paredes, ofrece un buen aislamiento.</li>
+                    <li><strong>Hojas Secas, Paja o Piel de Corteza:</strong> Materiales naturales que, si se mantienen secos, son muy eficaces.</li>
+                </ul>
+
+                <h3>🛠️ Paso a Paso: Refugio Subterráneo "Nido de Zorro"</h3>
+                <p>Este refugio es excelente para el camuflaje a largo plazo y la protección contra ataques aéreos o patrullas terrestres. Es un trabajo intensivo, pero su seguridad no tiene rival.</p>
+                <ol>
+                    <li><strong>Excavación:</strong>
+                        <ul>
+                            <li>Usa palas, picos o incluso herramientas improvisadas (planchas de metal, tapacubos). Excava un hoyo de al menos 2 metros de profundidad y con el espacio suficiente para tu grupo.</li>
+                            <li>Crea dos túneles de entrada/salida en extremos opuestos. Uno principal y otro de emergencia, más pequeño y oculto.</li>
+                            <li>La tierra extraída debe ser dispersada lejos del sitio, en un río o bajo un denso follaje para no dejar rastro.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Estructura y Soporte (Crucial para evitar derrumbes):</strong>
+                        <ul>
+                            <li>Crea un marco de soporte para el techo usando troncos robustos o vigas de metal recuperadas. Coloca una viga principal a lo largo del techo y vigas transversales cada 50 cm.</li>
+                            <li>Las paredes deben ser reforzadas con tablas, planchas de metal o incluso rocas apiladas para contener la tierra.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Impermeabilización y Aislamiento:</strong>
+                        <ul>
+                            <li>Cubre el marco del techo con una lona grande, plásticos gruesos o varias capas de bolsas de basura solapadas. Asegúrate de que el material sobresalga por los bordes.</li>
+                            <li>Añade una capa de arcilla húmeda sobre el plástico si es posible. Al secarse, creará un sello impermeable.</li>
+                            <li>Cubre todo con una capa de tierra de unos 30-50 cm y finaliza con la vegetación original del lugar (césped, hojas, musgo) para un camuflaje perfecto.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ventilación:</strong>
+                        <ul>
+                            <li>Instala dos tubos de ventilación (PVC, metal) en extremos opuestos del refugio. Uno para la entrada de aire fresco (bajo) y otro para la salida de aire viciado (alto).</li>
+                            <li>Cubre las salidas exteriores con una malla para evitar la entrada de animales y camúflalas con rocas o arbustos.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>🌳 Paso a Paso: Refugio Elevado "Nido de Halcón"</h3>
+                <p>Ideal para vigilancia en zonas boscosas. Ofrece protección contra amenazas terrestres no trepadoras y una excelente visión del perímetro.</p>
+                <ol>
+                    <li><strong>Selección del Árbol:</strong>
+                        <ul>
+                            <li>Busca un árbol maduro y robusto (roble, pino, haya) con una "V" fuerte en sus ramas a una altura de 4 a 6 metros. O un grupo de 3-4 árboles cercanos que puedan formar los pilares de tu plataforma.</li>
+                            <li>El árbol debe tener buena cobertura de follaje para ocultar la estructura.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Construcción de la Plataforma:</strong>
+                        <ul>
+                            <li>Fija las vigas de soporte principales a los troncos usando cuerdas fuertes (nudo de constrictor o ballestrinque) o perforando y usando pernos si tienes las herramientas. No dañes el árbol más de lo necesario.</li>
+                            <li>Crea un entramado con ramas más delgadas y cúbrelo con tablas, una puerta vieja o varias capas de palets.</li>
+                            <li>Asegúrate de que la plataforma esté nivelada y pueda soportar el peso de tu grupo y equipo.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Muros y Techo:</strong>
+                        <ul>
+                            <li>Usa lonas, ponchos o plásticos para crear muros ligeros. Átalos a las ramas circundantes.</li>
+                            <li>El techo debe tener una inclinación para que el agua de lluvia escurra. Una lona tensada funciona perfectamente.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Acceso Seguro:</strong>
+                        <ul>
+                            <li>La forma más simple es una escalera de cuerda que puedas recoger una vez arriba.</li>
+                            <li>También puedes tallar muescas en el tronco o usar las propias ramas del árbol como escalera natural.</li>
+                        </ul>
+                    </li>
+                </ol>
+                
+                <h3>🛡️ Fortificación Avanzada y Defensas Pasivas</h3>
+                <p>Tu refugio debe ser un hueso duro de roer. Disuade a los curiosos y ralentiza a los atacantes con estas mejoras:</p>
+                <ul>
+                    <li><strong>Perímetro de Alerta Temprana:</strong> A unos 30-50 metros del refugio, crea un perímetro de "ruido". Ata latas vacías, pequeños trozos de metal o campanas a un hilo de pescar o cuerda fina a la altura del tobillo. Cualquier cosa que cruce la línea hará ruido.</li>
+                    <li><strong>Barreras Físicas:</strong> Crea barreras con zarzas, ramas con espinas o escombros afilados en las rutas de aproximación más probables. Esto no detendrá a un enemigo decidido, pero lo ralentizará y lo hará más ruidoso.</li>
+                    <li><strong>Camuflaje Activo:</strong> No te limites a cubrir el refugio. Altera el entorno cercano. Crea caminos falsos que lleven a trampas o a callejones sin salida. Deja basura o equipo roto lejos de tu refugio para crear una falsa señal de abandono en otra dirección.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cap4">
+            <h2>Capítulo 4: El Sostén de la Vida: Agua y Alimentación <button class="copy-btn" data-target="cap4">Copiar</button></h2>
+            <div class="copy-content">
+                <p>En un mundo colapsado, la logística de los supermercados ha sido reemplazada por la crudeza de la naturaleza. Tu cuerpo necesita agua y calorías para luchar, pensar y sobrevivir. Esta sección te enseña a encontrarlas y gestionarlas.</p>
+
+                <h3>💧 Agua: El Recurso Crítico</h3>
+                <p>Puedes sobrevivir semanas sin comida, pero solo días sin agua. La purificación no es opcional, es una ley. Las enfermedades por agua contaminada (cólera, disentería) son un enemigo silencioso y letal.</p>
+                
+                <h4>Paso a Paso: Filtro de Agua por Gravedad</h4>
+                <p>Este sistema utiliza materiales comunes para eliminar sedimentos y algunos patógenos. <strong>Recuerda:</strong> este método limpia el agua, pero siempre es más seguro hervirla después del filtrado si es posible.</p>
+                <ol>
+                    <li><strong>El Contenedor:</strong> Coge una botella de plástico grande o un cubo. Corta la base de la botella para crear un embudo.</li>
+                    <li><strong>La Salida:</strong> Perfora varios agujeros pequeños en el tapón de la botella. Esto permitirá que el agua gotee lentamente, mejorando la filtración.</li>
+                    <li><strong>Primera Capa (Drenaje Grueso):</strong> Coloca la botella boca abajo. En el fondo (cerca del tapón), pon una capa de tela (un trozo de camiseta, pañuelo). Esto evitará que el resto de materiales se caigan.</li>
+                    <li><strong>Segunda Capa (Carbón Activado):</strong> La capa más importante. Coge trozos de carbón de una fogata (¡asegúrate de que sea solo madera quemada, sin plásticos ni químicos!). Machácalo hasta convertirlo en un polvo grueso. Añade una capa de 5-7 cm. El carbón absorbe impurezas y químicos.</li>
+                    <li><strong>Tercera Capa (Arena Fina):</strong> Añade una capa de 5 cm de arena fina. Esto eliminará las impurezas más pequeñas.</li>
+                    <li><strong>Cuarta Capa (Grava o Piedras Pequeñas):</strong> Añade una capa de 5 cm de grava. Esto filtra los sedimentos más grandes como hojas y ramas.</li>
+                    <li><strong>Uso:</strong> Vierte el agua turbia en la parte superior y deja que la gravedad haga su trabajo. Recoge el agua limpia que gotea por el tapón. El primer litro filtrado puede contener residuos de carbón, así que deséchalo o vuelve a filtrarlo.</li>
+                </ol>
+
+                <h3>🎯 Caza: Proteína para la Resistencia</h3>
+                <p>La caza proporciona proteínas y grasas esenciales para mantener la fuerza física y mental. Las trampas son tus mejores aliadas: trabajan para ti 24/7 y no hacen ruido.</p>
+
+                <h4>Paso a Paso: Trampa de Lazo Simple</h4>
+                <p>Esta trampa es muy efectiva para animales pequeños como conejos, ardillas o aves terrestres. La clave es colocarla en un sendero que los animales usen con frecuencia.</p>
+                <ol>
+                    <li><strong>Busca el Sendero:</strong> Busca caminos estrechos en la maleza, huellas o excrementos. Estos son los "senderos de caza" de los animales.</li>
+                    <li><strong>El Lazo:</strong> Usa un alambre fino y flexible, hilo de pescar o un cordón de zapato resistente. Haz un nudo corredizo que se cierre fácilmente. El diámetro del lazo debe ser del tamaño del puño para un conejo.</li>
+                    <li><strong>El Ancla:</strong> Ata el extremo del lazo a una estaca resistente clavada en el suelo o a una rama fuerte y flexible de un árbol joven.</li>
+                    <li><strong>La Colocación:</strong> Coloca el lazo a la altura de la cabeza del animal que esperas atrapar (unos 10-15 cm del suelo para un conejo). Usa pequeñas ramas y hojas para mantener el lazo abierto y en posición vertical sobre el sendero.</li>
+                    <li><strong>El "Embudo":</strong> Coloca ramas y hojas a los lados del sendero para "forzar" al animal a pasar a través de tu lazo.</li>
+                    <li><strong>Revisión:</strong> Revisa tus trampas dos veces al día (mañana y tarde). Un animal atrapado puede atraer a otros depredadores.</li>
+                </ol>
+
+                <h3>🧊 Conservación de Alimentos: Guarda para Mañana</h3>
+                <p>Un día de caza exitosa puede alimentarte durante una semana si conservas la carne adecuadamente. El secado es uno de los métodos más antiguos y efectivos.</p>
+
+                <h4>Paso a Paso: Secador Solar de Alimentos</h4>
+                <ol>
+                    <li><strong>La Caja:</strong> Encuentra una caja de cartón poco profunda. Pinta el interior de negro (con carbón machacado y agua, o pintura si la encuentras) para absorber más calor.</li>
+                    <li><strong>La Ventilación:</strong> Corta dos ventanas en los lados opuestos de la caja: una en la parte inferior para la entrada de aire y otra en la parte superior para la salida. Cubre estas ventanas con una tela fina o malla para proteger la comida de los insectos.</li>
+                    <li><strong>La Tapa Transparente:</strong> Cubre la parte superior de la caja con un plástico transparente (film de cocina, una bolsa de plástico, un trozo de metacrilato). Esto crea un efecto invernadero.</li>
+                    <li><strong>La Rejilla de Secado:</strong> Crea una rejilla dentro de la caja usando palitos o una malla metálica para colocar la comida. La comida no debe tocar el fondo de la caja para permitir la circulación de aire.</li>
+                    <li><strong>Preparación y Uso:</strong> Corta la carne o los vegetales en tiras muy finas (cuanto más finas, más rápido se secan). Colócalas en la rejilla sin que se toquen. Orienta la caja hacia el sol en un día seco y soleado. Dependiendo del sol y la humedad, la comida puede tardar de uno a tres días en secarse por completo. Sabrás que está lista cuando la carne se quiebre al doblarla.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="cap5">
+            <h2>Capítulo 5: La Chispa de la Civilización: Energía e Iluminación <button class="copy-btn" data-target="cap5">Copiar</button></h2>
+            <div class="copy-content">
+                <p>La energía es lo que separa a la supervivencia del progreso. No solo proporciona luz y calor, sino que alimenta la comunicación, la planificación y la esperanza. Este capítulo te enseña a capturar, almacenar y utilizar la energía de tu entorno.</p>
+
+                <h3>☀️ Energía Solar: El Poder del Sol</h3>
+                <p>El sol es la fuente de energía más fiable y abundante. Aprender a concentrar su poder te permitirá cocinar sin humo y generar electricidad silenciosa.</p>
+                
+                <h4>Paso a Paso: Cocina Solar de Caja Optimizada</h4>
+                <p>Esta versión mejorada de una cocina solar puede alcanzar temperaturas suficientes para hervir agua o cocinar un guiso, sin delatar tu posición con humo.</p>
+                <ol>
+                    <li><strong>La Caja Doble:</strong> Necesitarás dos cajas de cartón, una unos 5 cm más pequeña que la otra por todos los lados.</li>
+                    <li><strong>Aislamiento:</strong> Coloca la caja pequeña dentro de la grande. Rellena el espacio de 5 cm entre ellas con material aislante: papel de periódico arrugado, ropa vieja, hojas secas. Esto es clave para retener el calor.</li>
+                    <li><strong>Cámara de Cocción:</strong> Pinta el interior de la caja pequeña de negro mate (con carbón, pintura de pizarra) para maximizar la absorción de calor. Coloca en el fondo una lámina de metal fina (una bandeja de horno, una señal de tráfico aplanada) también pintada de negro.</li>
+                    <li><strong>La Tapa de Vidrio:</strong> Crea una tapa para la caja pequeña usando dos capas de plástico transparente (film de cocina, bolsas) o un trozo de vidrio o metacrilato. Sella los bordes con cinta adhesiva para crear una doble ventana que atrape el calor (efecto invernadero).</li>
+                    <li><strong>Los Reflectores:</strong> Pega papel de aluminio o espejos en las solapas de la caja grande. Ajusta estas solapas con palos o alambres para que reflejen la luz solar directamente hacia la cámara de cocción.</li>
+                    <li><strong>Uso:</strong> Coloca una olla o recipiente negro dentro de la caja, ciérrala y orienta los reflectores hacia el sol. La orientación debe ajustarse cada hora.</li>
+                </ol>
+
+                <h3>🚲 Energía Cinética: El Poder del Músculo</h3>
+                <p>Tu propio cuerpo es una fuente de energía. Convertir el esfuerzo muscular en electricidad es un logro que te dará independencia total de los recursos externos.</p>
+
+                <h4>Paso a Paso: Generador a Pedal</h4>
+                <p>Este dispositivo puede cargar baterías pequeñas, encender luces LED o alimentar una radio de onda corta. Requiere esfuerzo, pero es una fuente de energía bajo demanda, de día o de noche.</p>
+                <ol>
+                    <li><strong>La Base:</strong> Necesitas una bicicleta (estática o normal). Si es una bicicleta normal, tienes que levantar la rueda trasera del suelo usando un soporte de madera o metal.</li>
+                    <li><strong>El Generador:</strong> La pieza clave es un alternador de coche o un motor de corriente continua (DC) de un patinete eléctrico, un taladro inalámbrico o un ventilador de coche. Los motores DC son más fáciles de usar.</li>
+                    <li><strong>La Transmisión:</strong> Tienes que conectar el eje del motor/alternador a la rueda trasera de la bicicleta. La forma más fácil es usar una correa (una correa de ventilador de coche, una cámara de bicicleta cortada en tiras) que vaya desde la llanta de la rueda hasta la polea del motor.</li>
+                    <li><strong>El Montaje:</strong> Monta el motor/alternador en un soporte de madera de forma que la correa quede tensa. Al pedalear, la rueda girará, la correa moverá la polea del motor y se generará electricidad.</li>
+                    <li><strong>El Circuito:</strong>
+                        <ul>
+                            <li>Conecta los cables de salida del motor/alternador a un regulador de voltaje (esencial para no quemar tus dispositivos) que puedes encontrar en equipos electrónicos viejos.</li>
+                            <li>Desde el regulador, puedes conectar una batería de 12V (de coche, de moto) para almacenar la energía. <strong>¡CUIDADO!</strong> Conecta siempre el positivo (+) al positivo y el negativo (-) al negativo. Una conexión incorrecta puede hacer que la batería explote.</li>
+                            <li>Desde la batería, ya puedes alimentar tus dispositivos.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>🔋 Gestión Inteligente de Baterías</h3>
+                <p>La energía generada debe ser almacenada de forma eficiente. Un banco de baterías es tu reserva estratégica.</p>
+                <ul>
+                    <li><strong>Recolección:</strong> Desmonta baterías de portátiles viejos. Dentro encontrarás varias celdas cilíndricas (normalmente del tipo 18650). Estas son tu tesoro.</li>
+                    <li><strong>Testeo:</strong> Necesitas un voltímetro (multímetro) para probar cada celda. Descarta las que tengan un voltaje por debajo de 2.5V, probablemente estén muertas.</li>
+                    <li><strong>Creación de Packs:</strong> Agrupa las celdas sanas en paralelo (todos los positivos juntos, todos los negativos juntos) para aumentar la capacidad (amperios/hora). Luego, puedes conectar estos packs en serie para aumentar el voltaje. Usa portapilas o suéldalos con mucho cuidado.</li>
+                    <li><strong>Auditoría Energética:</strong> No malgastes la energía. Haz una lista de tus necesidades y prioriza: 1º Comunicación (radio), 2º Iluminación (LED), 3º Herramientas (taladro), 4º Moral (música). Apaga todo lo que no sea esencial.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cap6">
+            <h2>Capítulo 6: El Arte de la Guerra Silenciosa: Defensa y Evasión <button class="copy-btn" data-target="cap6">Copiar</button></h2>
+            <div class="copy-content">
+                <p>La mejor defensa no siempre es un buen ataque; a menudo, es no ser visto en absoluto. Este capítulo te enseña a convertir tu entorno en un arma, a moverte como un fantasma y a planificar tu huida antes incluso de que el peligro aparezca.</p>
+
+                <h3>🪤 Trampas Avanzadas: El Terreno como Arma</h3>
+                <p>Las trampas no solo neutralizan amenazas, sino que también actúan como un poderoso disuasivo psicológico. Deben ser indetectables y estar colocadas en puntos estratégicos.</p>
+                
+                <h4>Paso a Paso: Foso de Picas Oculto</h4>
+                <p>Esta es una trampa defensiva formidable, diseñada para proteger perímetros y puntos de acceso clave. Es una construcción que requiere tiempo, pero su efectividad es devastadora.</p>
+                <ol>
+                    <li><strong>Ubicación:</strong> Elige un punto de paso obligado para el enemigo: un sendero estrecho, la entrada a un campamento o un pasillo en unas ruinas.</li>
+                    <li><strong>Excavación:</strong> Cava un foso de al menos 1.5 metros de profundidad y lo suficientemente ancho para que un enemigo no pueda saltarlo fácilmente.</li>
+                    <li><strong>Las Picas:</strong> Afila estacas de madera dura (o varillas de metal) de unos 50-60 cm de largo. Endurece las puntas al fuego. Clava estas picas en el fondo del foso, con la punta hacia arriba.</li>
+                    <li><strong>El Falso Suelo:</strong> Crea una cubierta para el foso usando una red de ramas finas y frágiles. La estructura debe ser lo suficientemente fuerte para soportar una capa de camuflaje, pero lo bastante débil para romperse con el peso de una persona.</li>
+                    <li><strong>Camuflaje:</strong> Cubre el falso suelo con hojas, tierra y vegetación del entorno para que sea indistinguible del terreno circundante.</li>
+                    <li><strong>ADVERTENCIA:</strong> Esta trampa es letal. Úsala solo para defender un perímetro fijo y asegúrate de que todos los miembros de tu grupo conozcan su ubicación exacta.</li>
+                </ol>
+
+                <h3>🔭 Vigilancia y Movimiento Sigiloso</h3>
+                <p>Ver sin ser visto es la clave de la supervivencia a largo plazo. El sigilo es tu armadura.</p>
+                <ul>
+                    <li><strong>Puesto de Observación (PO):</strong> Tu PO debe tener buena cobertura, una ruta de escape oculta y estar cómodamente equipado para largas horas de vigilancia (agua, raciones, relevo). Usa periscopios improvisados (dos espejos y un tubo) para observar sin exponer tu cabeza.</li>
+                    <li><strong>El Paso del Zorro:</strong> Al moverte, apoya primero la parte exterior de la planta del pie y luego rueda el peso hacia el interior. Es un paso lento y deliberado que minimiza el ruido de ramas y hojas secas.</li>
+                    <li><strong>Uso de las Sombras:</strong> Muévete siempre por el borde de las sombras. Evita cruzar áreas abiertas y siluetearte en el horizonte (cimas de colinas).</li>
+                    <li><strong>Silencio de Equipo:</strong> Asegura todo tu equipo con cinta o tela para evitar ruidos metálicos. Cada pequeño tintineo es una señal de tu presencia.</li>
+                </ul>
+
+                <h3>🗡️ Combate Asimétrico: Luchar con Inteligencia</h3>
+                <p>Nunca luches en igualdad de condiciones si puedes evitarlo. La guerra asimétrica es el arte de usar la inteligencia para superar la fuerza bruta.</p>
+                <ul>
+                    <li><strong>Elige el Terreno:</strong> Atrae al enemigo a un terreno que conozcas y que te favorezca: un bosque denso, un edificio en ruinas con múltiples salidas, un área con trampas preparadas.</li>
+                    <li><strong>La Emboscada:</strong> El ataque por sorpresa es tu mayor ventaja. Golpea rápido y con contundencia en los puntos débiles (flancos, retaguardia) y desaparece antes de que puedan organizar una respuesta.</li>
+                    <li><strong>Guerra Psicológica:</strong> Usa el miedo como un arma. Ruidos extraños por la noche, señales falsas, trampas que no matan pero hieren... Un enemigo asustado comete errores.</li>
+                </ul>
+
+                <h3>🗺️ Planificación de Evasión y Escape (E&E)</h3>
+                <p>Tu plan de escape debe estar preparado antes de que lo necesites. Cuando todo falle, tu plan de E&E es lo único que te mantendrá con vida.</p>
+                <ol>
+                    <li><strong>Identifica los Puntos de Reunión:</strong> Establece varios puntos de reunión (primario, secundario, terciario) a diferentes distancias de tu refugio en caso de que tu grupo se separe durante una huida.</li>
+                    <li><strong>Prepara las Rutas:</strong> Traza al menos tres rutas de escape diferentes. Conócelas de memoria, incluyendo sus peligros y puntos de referencia.</li>
+                    <li><strong>Crea "Cachés" de Suministros:</strong> A lo largo de tus rutas de escape, entierra o esconde pequeños depósitos de suministros (un "caché"). Deben ser impermeables (tubos de PVC sellados, bolsas gruesas) y contener lo esencial: agua, comida de alto valor calórico, un pequeño botiquín, munición o herramientas.</li>
+                    <li><strong>El Kit de Escape:</strong> Tu mochila de emergencia debe estar siempre lista. Debe ser ligera y contener solo lo absolutamente indispensable para sobrevivir 72 horas mientras te diriges a tu primer caché.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="cap7">
+            <h2>Capítulo 7: La Despensa del Fin del Mundo: Gestión y Logística de Recursos <button class="copy-btn" data-target="cap7">Copiar</button></h2>
+            <div class="copy-content">
+                <p>Un ejército marcha sobre su estómago, y la resistencia humana también. La gestión inteligente de los recursos es la columna vertebral de la supervivencia a largo plazo. No se trata solo de lo que tienes, sino de cómo lo encuentras, lo almacenas y lo distribuyes.</p>
+
+                <h3>🗺️ Guía Táctica de Recolección (Scavenging)</h3>
+                <p>Cada incursión fuera del refugio es una misión de alto riesgo. Debe ser planificada y ejecutada con precisión militar.</p>
+                <h4>Protocolo de Incursión:</h4>
+                <ol>
+                    <li><strong>Planificación:</strong> Define un objetivo claro (ej: "conseguir antibióticos y herramientas de corte"). Usa mapas para trazar la ruta más segura, no la más corta. Identifica puntos de peligro y rutas de escape.</li>
+                    <li><strong>Equipo:</strong> Ve ligero, pero preparado. Lleva agua, una mochila resistente, una palanca (tu mejor amiga para abrir puertas), herramientas de corte y un arma de defensa silenciosa.</li>
+                    <li><strong>Ejecución:</strong> Muévete en las horas de menor actividad enemiga (amanecer, anochecer). Trabaja en equipo: uno vigila mientras el otro recoge. Sé rápido y silencioso. Coge solo lo que necesitas y puedes transportar.</li>
+                </ol>
+                <h4>Lista de Objetivos Prioritarios:</h4>
+                <ul>
+                    <li><strong>Farmacias y Clínicas Veterinarias:</strong> Busca antibióticos (amoxicilina, ciprofloxacina), analgésicos (ibuprofeno, paracetamol), vendas, gasas, yodo y alcohol. No subestimes los suministros veterinarios; muchos son compatibles con humanos.</li>
+                    <li><strong>Ferreterías y Talleres:</strong> Tu arsenal. Busca herramientas manuales (martillos, sierras, alicates), tornillos, clavos, cuerdas, cinta adhesiva, lubricantes y, si tienes suerte, un soplete de propano.</li>
+                    <li><strong>Bibliotecas y Librerías:</strong> El conocimiento es poder. Busca manuales de medicina, ingeniería, agricultura, guías de plantas locales y mapas detallados de la zona.</li>
+                    <li><strong>Almacenes y Centros de Distribución:</strong> Potencialmente peligrosos, pero con grandes recompensas. Busca alimentos no perecederos, agua embotellada, ropa de trabajo y suministros industriales.</li>
+                </ul>
+
+                <h3>📦 Sistema de Inventario y Racionamiento</h3>
+                <p>El caos es el enemigo. Una despensa organizada y un sistema de racionamiento justo evitan conflictos internos y aseguran que los recursos duren el mayor tiempo posible.</p>
+                <h4>La Despensa Segura:</h4>
+                <ul>
+                    <li><strong>Ubicación:</strong> Debe ser un lugar fresco, oscuro y seco para prevenir la descomposición.</li>
+                    <li><strong>Organización:</strong> Usa estanterías improvisadas. Etiqueta todo con su contenido y la fecha de recolección. Practica el sistema FIFO (First-In, First-Out): lo primero que entra es lo primero que se consume.</li>
+                    <li><strong>Protección:</strong> Almacena los alimentos en recipientes a prueba de roedores y humedad (bidones de plástico, cubos de metal con tapa).</li>
+                </ul>
+                <h4>Racionamiento por Puntos:</h4>
+                <p>Asigna una cantidad de "puntos" diarios a cada persona según su nivel de actividad física para asegurar una distribución justa de calorías.</p>
+                <ul>
+                    <li><strong>Vigía / Tareas Ligeras:</strong> 1 punto (aprox. 1500-1800 calorías)</li>
+                    <li><strong>Constructor / Recolector:</strong> 2 puntos (aprox. 2200-2500 calorías)</li>
+                    <li><strong>Herido / Enfermo:</strong> 0.5 puntos (dieta ligera para recuperación)</li>
+                </ul>
+
+                <h3>🌾 Agricultura de Guerrilla: Cultivando la Esperanza</h3>
+                <p>No siempre podrás depender de la recolección. Producir tu propia comida es el paso definitivo hacia la autosuficiencia.</p>
+                <h4>Paso a Paso: Jardín Vertical Urbano</h4>
+                <p>Perfecto para espacios pequeños como balcones, azoteas o incluso interiores bien iluminados.</p>
+                <ol>
+                    <li><strong>La Estructura:</strong> Usa un palet de madera colocado en vertical y apoyado contra una pared. También puedes colgar botellas de plástico de 2 litros en filas.</li>
+                    <li><strong>Los Contenedores:</strong> Grapa tela resistente (tela de jardinería, tela de saco) en la parte trasera y en el fondo de los huecos del palet para crear "bolsillos" de siembra. Si usas botellas, córtales una ventana en un lado.</li>
+                    <li><strong>El Sustrato:</strong> Rellena los contenedores con una mezcla de tierra y compost casero (restos de vegetales, cáscaras de huevo, posos de café, ceniza).</li>
+                    <li><strong>La Siembra:</strong> Elige plantas de crecimiento rápido y alto rendimiento: lechugas, espinacas, rábanos, hierbas aromáticas (menta, albahaca) y frijoles trepadores.</li>
+                    <li><strong>Riego por Goteo:</strong> Perfora un pequeño agujero en el tapón de una botella de agua y entiérrala boca abajo cerca de las raíces de tus plantas. Se regarán lentamente, ahorrando agua.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="cap8">
+            <h2>Capítulo 8: La Red Invisible: Comunicación e Inteligencia <button class="copy-btn" data-target="cap8">Copiar</button></h2>
+            <div class="copy-content">
+                <p>En un campo de batalla donde el enemigo controla el espectro electromagnético, la información es el arma más poderosa. La capacidad de comunicarse en secreto y de obtener inteligencia fiable decidirá el éxito o el fracaso de la resistencia.</p>
+
+                <h3>📡 Canales de Comunicación Seguros</h3>
+                <p>Tus comunicaciones deben ser discretas, seguras y redundantes.</p>
+                <ul>
+                    <li><strong>Mensajeros Humanos:</strong> Siguen siendo el método más seguro. Deben conocer múltiples rutas y tener una historia de coartada creíble. Los mensajes deben ser memorizados o escritos en un código simple y en un material que pueda ser destruido fácilmente (papel de arroz, hoja de árbol).</li>
+                    <li><strong>Radio de Onda Corta (HF):</strong> Permite comunicaciones a larga distancia. Usa ráfagas de transmisión cortas y en horarios irregulares para evitar la triangulación. Utiliza un código preestablecido (ver más abajo).</li>
+                    <li><strong>Señales Visuales:</strong> El código Morse con linternas o espejos es efectivo. Acuerda significados para señales simples (ej: 1 destello = todo bien, 2 destellos = se requiere ayuda, 3 destellos = peligro inminente).</li>
+                </ul>
+
+                <h3>🤫 Protocolos de Seguridad Verbal y No Verbal</h3>
+                <p>La confianza debe ser verificada constantemente. Un error puede comprometer a todo el grupo.</p>
+                <h4>Sistema de Contraseña/Contra-contraseña:</h4>
+                <p>Establece un sistema de desafío y respuesta que cambie diariamente. Se basa en una pregunta y una respuesta que solo los miembros del grupo conocen.</p>
+                <ul>
+                    <li><strong>Ejemplo:</strong> La contraseña del día se basa en la tercera palabra de la página 42 de un libro específico.</li>
+                    <li><strong>Desafío:</strong> "¿Cómo está el clima hoy?"</li>
+                    <li><strong>Respuesta correcta:</strong> "El cielo está [palabra clave del día]."</li>
+                    <li>Una respuesta incorrecta o una duda se considera una amenaza potencial.</li>
+                </ul>
+                <h4>Palabra de Coacción (Duress Code):</h4>
+                <p>Una palabra o frase aparentemente inocente que un miembro del grupo puede usar para indicar que está siendo forzado a cooperar con el enemigo. La palabra debe ser algo que no se usaría en una conversación normal (ej: "He oído que las Perseidas estarán brillantes esta noche"). Si se oye esta frase, el protocolo es asumir que el miembro está comprometido y que cualquier información que dé es falsa.</p>
+                <h4>Señales de Mano Tácticas:</h4>
+                <p>Para operaciones silenciosas, un lenguaje de señas es vital. Establece y practica un sistema simple:</p>
+                <ul>
+                    <li><strong>Puño cerrado en alto:</strong> Detenerse / Alto.</li>
+                    <li><strong>Mano abierta, movimiento hacia adelante:</strong> Avanzar.</li>
+                    <li><strong>Mano en la garganta:</strong> Peligro / Enemigo a la vista.</li>
+                    <li><strong>Dedo índice y medio apuntando a los ojos:</strong> Observar / Vigilar esa dirección.</li>
+                    <li><strong>Pulgar hacia abajo:</strong> Negativo / No.</li>
+                    <li><strong>Pulgar hacia arriba:</strong> Positivo / Entendido.</li>
+                </ul>
+
+                <h3>🧠 Liderazgo Adaptativo y Moral</h3>
+                <p>Un buen líder sabe que el estilo de liderazgo debe cambiar con la situación.</p>
+                <ul>
+                    <li><strong>Liderazgo Directivo (En Crisis):</strong> Durante un combate o una huida, las decisiones deben ser rápidas y autoritarias. No hay tiempo para el debate. El líder da órdenes claras y concisas.</li>
+                    <li><strong>Liderazgo Participativo (En Calma):</strong> Durante la planificación, la gestión de recursos o la resolución de conflictos internos, un enfoque democrático es más efectivo. Escuchar a todos los miembros del grupo aumenta la moral y genera mejores ideas.</li>
+                    <li><strong>Mantener la Moral:</strong> La esperanza es un recurso. Celebra las pequeñas victorias. Asigna tareas a todos para que se sientan útiles. Fomenta rutinas y momentos de normalidad (una comida en grupo, música, lectura).</li>
+                </ul>
+
+                <h3>🛡️ Combate a la Desinformación y Contrainteligencia</h3>
+                <p>El enemigo no solo atacará con armas, sino también con mentiras. La desinformación puede destruir un grupo desde dentro.</p>
+                <ul>
+                    <li><strong>Verificación de Fuentes:</strong> Nunca actúes basándote en una sola fuente de información. Cualquier dato crítico debe ser confirmado por al menos otro miembro del grupo o por observación directa.</li>
+                    <li><strong>Técnicas de Interrogatorio:</strong> Si capturas a un extraño, haz preguntas cuya respuesta ya conozcas para evaluar su veracidad. Observa el lenguaje corporal: evitar el contacto visual, el nerviosismo excesivo o las respuestas demasiado ensayadas son señales de alerta.</li>
+                    <li><strong>Planta Información Falsa:</strong> Si sospechas que hay un infiltrado o que tus comunicaciones están siendo monitoreadas, puedes filtrar información falsa (ej: la ubicación de un falso depósito de suministros) para confundir al enemigo y confirmar tus sospechas.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cap9">
+            <h2>Capítulo 9: Medicina de Combate: Primeros Auxilios en la Zona Cero <button class="copy-btn" data-target="cap9">Copiar</button></h2>
+            <div class="copy-content">
+                <p>En el nuevo mundo, no hay hospitales ni ambulancias. Tú eres el médico. Cada miembro del grupo debe conocer los fundamentos de los primeros auxilios, ya que la diferencia entre la vida y la muerte puede ser cuestión de minutos.</p>
+
+                <h3>🩸 Control de Hemorragias: Detener el Sangrado</h3>
+                <p>La pérdida de sangre es la causa de muerte más prevenible en un escenario de combate. Actúa rápido y con decisión.</p>
+                <ol>
+                    <li><strong>Presión Directa:</strong> Aplica presión firme y constante sobre la herida con la tela más limpia que tengas. No quites el primer apósito aunque se empape de sangre; añade más capas encima.</li>
+                    <li><strong>Elevación:</strong> Si la herida está en una extremidad, elévala por encima del nivel del corazón para reducir el flujo sanguíneo.</li>
+                    <li><strong>Torniquete (Último Recurso):</strong> Si la hemorragia es arterial (la sangre brota a chorros) y no se detiene, aplica un torniquete. Usa un trozo de tela ancho (no una cuerda fina) y un palo. Colócalo unos 5-7 cm por encima de la herida (nunca en una articulación). Gira el palo para apretar hasta que el sangrado se detenga. <strong>Anota la hora de aplicación.</strong> Un torniquete es una decisión de "vida o extremidad".</li>
+                </ol>
+
+                <h3>🦴 Inmovilización de Fracturas y Transporte de Heridos</h3>
+                <p>Un movimiento incorrecto de una fractura puede causar dolor extremo, daño a los nervios o incluso la muerte. La inmovilización es clave.</p>
+                <h4>Paso a Paso: Camilla Improvisada</h4>
+                <p>Transportar a un herido de forma segura es vital para su recuperación y para la movilidad del grupo.</p>
+                <ol>
+                    <li><strong>Los Postes:</strong> Encuentra dos postes largos y resistentes (ramas gruesas, tuberías, palos de cortina).</li>
+                    <li><strong>La Lona:</strong> Extiende una chaqueta resistente, una manta o una lona en el suelo. Coloca los postes encima, separados por el ancho de los hombros de una persona.</li>
+                    <li><strong>El Plegado:</strong> Dobla los lados de la chaqueta o manta sobre los postes, creando un sobre. Si usas una chaqueta, pasa los postes por dentro de las mangas para una mayor seguridad.</li>
+                    <li><strong>Prueba de Carga:</strong> Antes de colocar al herido, prueba la camilla con el peso de otro miembro del grupo para asegurarte de que es resistente.</li>
+                    <li><strong>Transporte:</strong> Se necesitan al menos dos personas, una en cada extremo. Levantad y moveos de forma coordinada y suave.</li>
+                </ol>
+
+                <h3>🧼 Higiene en el Campo: La Prevención es la Mejor Medicina</h3>
+                <p>Las enfermedades infecciosas pueden diezmar a tu grupo más rápido que cualquier enemigo. La higiene no es un lujo, es una necesidad táctica.</p>
+                <ul>
+                    <li><strong>Letrinas:</strong> Cava una zanja de al menos 30 cm de profundidad y a un mínimo de 100 metros de tu fuente de agua y de tu refugio. Cubre los desechos con tierra después de cada uso para evitar olores y la propagación de enfermedades por insectos.</li>
+                    <li><strong>Lavado de Manos:</strong> Crea una "estación de lavado" con una botella de agua con un pequeño agujero en el tapón para que gotee. Usa jabón si lo tienes, o ceniza de madera como sustituto abrasivo y desinfectante. Lávate siempre antes de comer y después de usar la letrina.</li>
+                    <li><strong>Gestión de Residuos:</strong> Quema toda la basura que puedas para no atraer plagas. Entierra los restos de comida lejos del campamento.</li>
+                </ul>
+
+                <h3>🧠 Salud Mental: La Guerra Interior</h3>
+                <p>Las cicatrices no siempre son visibles. El estrés constante, el miedo y la pérdida pueden quebrar al superviviente más fuerte. Cuidar la mente es tan importante como cuidar el cuerpo.</p>
+                <ul>
+                    <li><strong>Reconocer los Síntomas:</strong> Presta atención a los signos de estrés postraumático (TEPT) o fatiga de combate en tus compañeros: pesadillas, irritabilidad extrema, apatía, insomnio, flashbacks.</li>
+                    <li><strong>Fomentar la Comunicación:</strong> Crea un entorno de confianza donde los miembros del grupo puedan hablar de sus miedos y experiencias sin ser juzgados. Escuchar es una forma de medicina.</li>
+                    <li><strong>Establecer Rutinas:</strong> Las rutinas (turnos de guardia, comidas a la misma hora, tareas asignadas) proporcionan una sensación de normalidad y control en medio del caos.</li>
+                    <li><strong>Descanso y Desconexión:</strong> Asegúrate de que todos tengan tiempo para descansar. Incluso pequeños momentos de ocio (leer un libro, jugar a las cartas, escuchar música) son vitales para recargar la energía mental.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cap10">
+            <h2>Anexo: La Biblioteca del Superviviente <button class="copy-btn" data-target="cap10">Copiar</button></h2>
+            <div class="copy-content">
+                <p>El conocimiento es el único recurso que no pesa en la mochila y que no se puede perder. Esta sección es tu biblioteca de referencia para la formación continua de la resistencia.</p>
+
+                <h3>📚 Manuales de Campo Esenciales (Descargar y Proteger)</h3>
+                <p>Estos documentos deben ser descargados, impresos si es posible, y almacenados en contenedores impermeables. Son la base de tu conocimiento táctico y práctico.</p>
+                <ul>
+                    <li><strong>Manual de Supervivencia del Ejército de EE. UU. (FM 21-76):</strong> El estándar de oro. Cubre desde cómo hacer un nudo hasta cómo construir un refugio en cualquier clima.</li>
+                    <li><strong>Donde No Hay Doctor (Hesperian Health Guides):</strong> Una guía de medicina comunitaria increíblemente detallada. Enseña a diagnosticar y tratar enfermedades comunes cuando no se tiene acceso a un médico.</li>
+                    <li><strong>Manual de Tácticas de Pequeñas Unidades (Ranger Handbook):</strong> Avanzado, pero invaluable para aprender a operar en equipo, planificar emboscadas y patrullar de forma segura.</li>
+                    <li><strong>Guía de Plantas Comestibles y Medicinales de tu Región:</strong> Investiga y descarga una guía específica de tu área local. Este conocimiento es insustituible.</li>
+                </ul>
+
+                <h3>🛠️ Canales de Conocimiento Práctico (Estudiar Ahora)</h3>
+                <p>Visualizar una habilidad es el primer paso para aprenderla. Estudia estos canales mientras tengas acceso a la red.</p>
+                <ul>
+                    <li><strong>The Primitive Technology (YouTube):</strong> Un maestro en construir herramientas y estructuras desde cero, sin usar una sola herramienta moderna. Silencioso y educativo.</li>
+                    <li><strong>Urban Prepper (YouTube):</strong> (Ya mencionado) Excelente para la mentalidad de supervivencia en entornos urbanos y la preparación de kits.</li>
+                    <li><strong>Blacksmithing y Forja (Varios canales):</strong> Busca canales de forja para aprender los fundamentos de cómo trabajar el metal. Entender cómo calentar y golpear el metal es una habilidad revolucionaria.</li>
+                </ul>
+
+                <h3>💪 Habilidades Prácticas a Dominar</h3>
+                <p>La teoría no sirve de nada sin la práctica. Dedica tiempo a dominar estas habilidades físicas.</p>
+                <ul>
+                    <li><strong>Nudos Esenciales:</strong>
+                        <ul>
+                            <li><strong>As de Guía:</strong> Para crear un lazo fijo que no se desliza. Fundamental para rescates y anclajes.</li>
+                            <li><strong>Ballestrinque:</strong> Para atar una cuerda a un poste o árbol.</li>
+                            <li><strong>Nudo de Constrictor:</strong> El nudo definitivo para atar objetos. Se aprieta sobre sí mismo y es extremadamente difícil de aflojar.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Orientación sin GPS:</strong>
+                        <ul>
+                            <li><strong>Método del Reloj de Sol:</strong> Clava un palo en el suelo. Marca la punta de la sombra. Espera 15-20 minutos y marca la nueva punta. La línea que une las dos marcas va de Oeste a Este.</li>
+                            <li><strong>Uso de la Estrella Polar (Hemisferio Norte):</strong> Encuentra la Osa Mayor. Las dos estrellas al final de la "cacerola" apuntan directamente a la Estrella Polar (Polaris), que marca el Norte.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Sutura Básica:</strong> Consigue un kit de sutura y practica en una piel de naranja, un plátano o un trozo de piel de cerdo. Aprender a cerrar una herida limpiamente puede prevenir infecciones mortales.</li>
+                </ul>
+
+                <h3>📖 Glosario de Términos Tácticos</h3>
+                <p>Hablar el mismo idioma en una crisis ahorra tiempo y vidas.</p>
+                <ul>
+                    <li><strong>E&E (Evasión y Escape):</strong> El conjunto de procedimientos para huir de una zona hostil de forma segura.</li>
+                    <li><strong>PO (Puesto de Observación):</strong> Un lugar oculto desde el que se vigila al enemigo o un área de interés.</li>
+                    <li><strong>NBQ (Nuclear, Biológico, Químico):</strong> Referente a las amenazas de tipo no convencional. Un traje NBQ protege de estos agentes.</li>
+                    <li><strong>FIFO (First-In, First-Out):</strong> Principio de gestión de inventario. Lo primero que se almacena es lo primero que se consume para evitar que la comida caduque.</li>
+                    <li><strong>TEPT (Trastorno de Estrés Postraumático):</strong> Condición de salud mental desencadenada por un evento aterrador.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
