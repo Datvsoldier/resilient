@@ -92,6 +92,10 @@ h4 {
     color: #ffffff;
 }
 
+li strong {
+    color: #ffffff;
+}
+
 .copy-btn {
     background-color: #ffbf00;
     color: #111;
