@@ -125,7 +125,7 @@ th {
 /* Estilos para pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
     body {
-        display: block; /* Change to block for mobile layout */
+        display: block; /* Cambia a block para el diseño móvil */
     }
 
     .sidebar {
@@ -135,7 +135,7 @@ th {
     .content {
         margin-left: 0; /* Elimina el margen izquierdo */
         width: 100%; /* Ocupa todo el ancho */
-        padding: 15px; /* Ajusta el padding para móviles, un poco menos */
+        padding: 15px; /* Ajusta el padding para móviles */
     }
 
     section h2 {
@@ -157,5 +157,14 @@ th {
     table, th, td {
         font-size: 0.8em; /* Reduce el tamaño de la fuente en tablas */
         padding: 5px; /* Reduce el padding en tablas */
+    }
+
+    /* Ajustes específicos para listas en móviles */
+    ul, ol {
+        padding-left: 20px; /* Reduce el padding izquierdo de las listas */
+    }
+
+    li {
+        margin-bottom: 5px; /* Espacio entre elementos de lista */
     }
 }
