@@ -161,10 +161,19 @@ th {
 
     /* Ajustes específicos para listas en móviles */
     ul, ol {
-        padding-left: 20px; /* Reduce el padding izquierdo de las listas */
+        padding-left: 0; /* Elimina el padding predeterminado */
+        margin-left: 0; /* Elimina el margen predeterminado */
+        list-style-type: disc; /* Asegura que las viñetas sean discos para ul */
+        list-style-position: inside; /* Coloca la viñeta dentro del contenido */
+    }
+
+    ol {
+        list-style-type: decimal; /* Asegura que las viñetas sean números para ol */
     }
 
     li {
-        margin-bottom: 5px; /* Espacio entre elementos de lista */
+        margin-left: 0; /* Asegura que no haya margen izquierdo */
+        padding-left: 1.5em; /* Espacio para la viñeta */
+        text-indent: -1.5em; /* Mueve el texto hacia la izquierda para compensar el padding */
     }
 }
