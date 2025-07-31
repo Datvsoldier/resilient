@@ -3,6 +3,7 @@
     "short_name": "Manual Alien",
     "description": "Guía táctica para la resistencia humana en un escenario de invasión alienígena.",
     "start_url": "/resilient/index.html",
+    "scope": "/resilient/", 
     "display": "standalone",
     "background_color": "#1a1a1a",
     "theme_color": "#ffbf00",
