@@ -1,10 +1,16 @@
+html, body {
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #1a1a1a;
     color: #ffbf00;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flex; /* Keep flex for desktop */
 }
 
 .sidebar {
@@ -118,6 +124,10 @@ th {
 
 /* Estilos para pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
+    body {
+        display: block; /* Change to block for mobile layout */
+    }
+
     .sidebar {
         display: none; /* Oculta la barra lateral en móviles */
     }
@@ -125,15 +135,27 @@ th {
     .content {
         margin-left: 0; /* Elimina el margen izquierdo */
         width: 100%; /* Ocupa todo el ancho */
-        padding: 20px; /* Ajusta el padding para móviles */
+        padding: 15px; /* Ajusta el padding para móviles, un poco menos */
     }
 
     section h2 {
         flex-direction: column; /* Apila el título y el botón */
         align-items: flex-start;
+        font-size: 1.5em; /* Reduce el tamaño de la fuente para títulos de sección */
+    }
+
+    h3 {
+        font-size: 1.2em; /* Reduce el tamaño de la fuente para subtítulos */
     }
 
     .copy-btn {
         margin-top: 10px;
+        width: 100%; /* Haz que el botón ocupe todo el ancho */
+        box-sizing: border-box; /* Asegura que el padding no desborde */
+    }
+
+    table, th, td {
+        font-size: 0.8em; /* Reduce el tamaño de la fuente en tablas */
+        padding: 5px; /* Reduce el padding en tablas */
     }
 }
