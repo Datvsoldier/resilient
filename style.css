@@ -115,3 +115,25 @@ th {
     background-color: #ffbf00;
     color: #111;
 }
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .sidebar {
+        display: none; /* Oculta la barra lateral en móviles */
+    }
+
+    .content {
+        margin-left: 0; /* Elimina el margen izquierdo */
+        width: 100%; /* Ocupa todo el ancho */
+        padding: 20px; /* Ajusta el padding para móviles */
+    }
+
+    section h2 {
+        flex-direction: column; /* Apila el título y el botón */
+        align-items: flex-start;
+    }
+
+    .copy-btn {
+        margin-top: 10px;
+    }
+}
